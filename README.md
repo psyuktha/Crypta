@@ -2,12 +2,6 @@
   <img src="assets/logo-transparent.png" alt="Project Logo">
 </p>
 
-## Project Archived
-
-This repository has been archived and is no longer actively maintained here. The project has been split and is now maintained under the [1Mind Labs](https://github.com/1MindLabs) organization.
-
-For the latest updates and continued development, please visit the respective repositories within the 1Mind Labs organization.
-
 ## Project Description
 
 An automated digital forensics and incident response system designed for anomaly detection and pattern recognition across system data and network activity. The tool integrates AI/ML models to classify system risk levels, identify indicators of compromise (IoCs), and generate actionable insights from forensic disk images, memory dumps, and network traffic.
@@ -24,46 +18,6 @@ An automated digital forensics and incident response system designed for anomaly
 - **Scalable Architecture**: Built with FastAPI, Next.js, and Flutter, ensuring high performance and easy deployment across environments.
 
 Additionally, the tool supports live drive detection, allowing investigators to connect drives and perform real-time forensic analysis. It also features a chatbot that provides detailed explanations of detected anomalies, offering further insights.
-
-## Project Milestones
-
-### Completed:
-
-- [x] Automate disk image processing
-- [x] Analyze system logs using YARA rules
-  - [x] Display system logs results on the dashboard
-- [x] Analyze network traffic with Scapy
-  - [ ] Display network traffic results on the dashboard
-- [x] Develop ML model for risk type and risk level categorization
-- [x] Develop ML model for network traffic prediction
-- [x] Generate reports in PDF, CSV, and JSON formats
-- [x] Build interactive graphs
-- [x] Detect external drives
-
-### In Progress:
-
-- [ ] Automate memory dumping
-- [ ] Train network traffic ML model to identify more attack patterns
-- [ ] Integrate MISP IoC database for improved threat identification 
-- [ ] Analyze registry hives
-  - [ ] Display registry results on the dashboard
-  - [ ] Develop ML model for registry hive analysis
-- [ ] Analyze system running processes
-  - [ ] Display running processes results on the dashboard
-  - [ ] Develop ML model for running processes analysis
-- [ ] Integrate blockchain technology for secure and immutable audit trails
-
-### Other:
-
-- [ ] Support desktop app download
-- [ ] Implement responsive web design
-- [ ] Improve loading animations
-- [ ] Add chatbot functionality and background image
-
-### Bugs:
-
-- [ ] Add YARA analysis support for additional file types: .doc, .docx, .xls, .xlsx, .ppt, .pptx
-- [ ] Implement multithreading for faster file and folder scanning within disk images and memory dumps
 
 ## Project Architecture
 
@@ -294,12 +248,3 @@ After setting up the application using Docker or running it locally, you can ver
 ## License
 
 This project is licensed under the [Apache License 2.0](https://github.com/areebahmeddd/Crypta/blob/main/LICENSE).
-
-## Authors
-
-- [Areeb Ahmed](https://github.com/areebahmeddd)
-- [Shivansh Karan](https://github.com/SpaceTesla)
-- [Avantika Kesarwani](https://github.com/avii09)
-- [Yuktha PS](https://github.com/psyuktha)
-- [Shashwat Kumar](https://github.com/shashwat6204)
-- [Rishi Chirchi](https://github.com/rishichirchi)
